@@ -1,0 +1,13 @@
+
+public class DemoWait  {
+
+	public static void main(String[] args) {
+		DemoNotify t1=new DemoNotify();
+		t1.start();
+		synchronized (t1) {
+			t1.wait();
+			
+		}
+	}
+
+}

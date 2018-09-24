@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<H2>Please fill up the form</H2>
+<form action="mydata" method="get">
+USERNAME:<input type="text" name="username"><br>
+<input type="submit" value="show data">
+</form>
+</body>
+</html>

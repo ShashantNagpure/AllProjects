@@ -1,0 +1,11 @@
+package com.annotations;
+
+public class DemoAnnotation {
+	@MyAnnotation(value1=10,name="mydemo")
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

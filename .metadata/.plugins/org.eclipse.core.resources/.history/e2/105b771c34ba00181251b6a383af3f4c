@@ -1,0 +1,34 @@
+package com.annotations;
+
+import java.lang.annotation.Annotation;
+import java.lang.reflect.Method;
+
+public class DemoAnnotation {
+	@MyAnnotation(value1=10,name="mydemo",demo_default="new value")
+	public void display()
+	{
+		System.out.println("using MyAnnotation");
+	}
+
+	public static void main(String[] args) {
+		DemoAnnotation test=new DemoAnnotation();
+		Class class1=test.getClass();
+		Method[] methods = class1.getMethods();
+		for(Method i:methods)
+		{
+			Annotation[] annotations=i.getAnnotations();
+			for(Annotation anno:annotations)
+			{
+				if(anno.annotationType().equals(MyAnnotation.class))
+				{
+					MyAnnotation m=(MyAnnotation)anno;
+					int value=m.value1()
+				}
+			}
+			if(My)
+		}
+		
+
+	}
+
+}

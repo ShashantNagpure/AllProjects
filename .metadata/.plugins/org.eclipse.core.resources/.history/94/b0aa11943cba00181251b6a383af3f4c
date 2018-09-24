@@ -1,0 +1,11 @@
+
+public class MyThread1 extends Thread {
+	private int num;
+	
+	public MyThread1() {num=10;}
+	public MyThread1(int num) {this.num=num;}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	}
+
+}

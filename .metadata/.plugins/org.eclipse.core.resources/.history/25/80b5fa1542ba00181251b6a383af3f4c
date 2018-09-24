@@ -1,0 +1,6 @@
+
+public class DemoNotify extends Thread {
+	public static int sum=0;
+	
+
+}

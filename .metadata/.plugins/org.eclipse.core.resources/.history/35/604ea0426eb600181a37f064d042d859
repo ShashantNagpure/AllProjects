@@ -1,0 +1,13 @@
+import java.sql.Connection;
+
+public class DemoInsert {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Connection con = MyConnection.openConnection();
+		String SQL_INSERT="insert into Book values(1,'Core Java','Core Java','Core Java',123)";
+		Statement st=con.createStatement()
+
+	}
+
+}

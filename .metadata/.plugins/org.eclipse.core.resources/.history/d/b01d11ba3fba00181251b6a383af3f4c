@@ -1,0 +1,19 @@
+
+public class DemoPriority extends Thread {
+
+	
+	@Override
+	public void run() {
+		System.out.println("Thread running: "+Thread.currentThread().getName());
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Main ends: "+Thread.currentThread().getName());
+		Thread t=new DemoPriority()
+
+		System.out.println("Main ends: "+Thread.currentThread().getName());
+
+
+	}
+
+}

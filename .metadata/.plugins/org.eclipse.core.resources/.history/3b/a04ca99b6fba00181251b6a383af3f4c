@@ -1,0 +1,31 @@
+
+public class TestUpdatebook {
+
+//	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//		BookDAOimpl dao=new BookDAOimpl();
+//		Book book=new Book();
+//		int isbn=1;
+//		book.setPrice(4010);
+//		if(dao.updateBook(isbn, book))
+//		{
+//			System.out.println("price updated success");
+//		}
+//		else
+//		{
+//			System.out.println("no record found");
+//		}
+	 public static void main(String [] args) {
+		 3.                      System.out.print("1 ");
+		 4.                      synchronized(args){
+		 5.                      System.out.print("2 ");
+		 6.                       try {
+		 7.                             args.wait();
+		 8.                       }
+		 9.                       catch(InterruptedException e){}
+		 10.                     }
+		 11. System.out.print("3 ");
+		 12.                }
+//	}
+
+}

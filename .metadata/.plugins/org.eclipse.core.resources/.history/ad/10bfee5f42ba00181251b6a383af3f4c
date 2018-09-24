@@ -1,0 +1,8 @@
+
+public class DemoWait extends DemoNotify {
+
+	public static void main(String[] args) {
+		DemoWa
+	}
+
+}

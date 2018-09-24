@@ -1,0 +1,12 @@
+
+public class TestMyThread {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("start inside main");
+		Thread t=new MyThread();
+		System.out.println("end: inside main");
+
+	}
+
+}

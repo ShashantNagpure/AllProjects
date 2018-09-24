@@ -1,0 +1,9 @@
+
+public class DemoNotify extends Thread {
+	public static int sum=0;
+	@Override
+	public void run() {
+		
+	}
+
+}

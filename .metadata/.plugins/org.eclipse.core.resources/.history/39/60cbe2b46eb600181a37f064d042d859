@@ -1,0 +1,22 @@
+import java.sql.Connection;
+import java.sql.Statement;
+
+public class DemoInsert {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Connection con = MyConnection.openConnection();
+		String SQL_INSERT="insert into Book values(1,'Core Java','Core Java','Core Java',123)";
+		try {
+		Statement st=con.createStatement();
+		int rows=st.executeUpdate("SQL INSERT");
+		if(rows>0)
+		{
+			System.out.println("row added succ");}
+		}
+		else
+		{System.out.println("sorry");}
+
+	}
+
+}

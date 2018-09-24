@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;WEB-INF&apos;&#x0D;&#x0A;- Original project: &apos;BookApplication&apos;&#x0D;&#x0A;- Destination element: &apos;WEB-INF&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     servlet-api.jar&#x0D;&#x0A;     jstl.jar&#x0D;&#x0A;     sqljdbc4-2.0.jar&#x0D;&#x0A;     standard.jar" description="Copy files" element1="WebContent/WEB-INF/lib/servlet-api.jar" element2="WebContent/WEB-INF/lib/jstl.jar" element3="WebContent/WEB-INF/lib/sqljdbc4-2.0.jar" element4="WebContent/WEB-INF/lib/standard.jar" files="4" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1537769245935" target="/OrderMatchingSystem/WebContent/WEB-INF" units="0" version="1.0"/>
+</session>

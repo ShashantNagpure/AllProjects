@@ -1,0 +1,12 @@
+import java.awt.print.Book;
+
+public class DemoInsert {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Connection con=MyConnection.openConnection();
+		String SQL_INSERT="insert into Book values(1,"
+
+	}
+
+}

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Welcome to HTML</h1>
+<br>
+<H2><a href="form.html">Click me to get Form</a></H2>
+<a href="show">Click to show servlet data</a>
+</body>
+</html>
